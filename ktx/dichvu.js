@@ -92,7 +92,6 @@ document.addEventListener("DOMContentLoaded", function () {
             const confirmDelete = confirm("Bạn có chắc chắn muốn xóa không?");
             if (confirmDelete) {
                 event.target.closest("tr").remove();
-                alert("Đã xóa");
             }
         } else if (event.target.classList.contains("edit-btn")) {
             const row = event.target.closest("tr");

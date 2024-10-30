@@ -98,13 +98,13 @@ nav a {
     text-decoration: none;
     font-size: 10px;
     transition: color 0.3s ease;
-    justify-content: center 
+    justify-content: center;
     text-align: center;
+    
 }
 
 
  
-
 nav a i {
     margin-right: 13px; /* Khoảng cách giữa biểu tượng và văn bản */
     color: #ec6f7a; /* Màu của biểu tượng */
@@ -117,6 +117,20 @@ nav a:hover {
     color: #101010; /* Màu văn bản khi hover */
     padding: 15px;
 }
+input {
+    border: none; /* Loại bỏ viền mặc định */
+    outline: none; /* Loại bỏ outline mặc định */
+    background-color: white; /* Màu nền */
+    padding: 8px; /* Đệm nội dung */
+    border-radius: 4px; /* Bo tròn góc */
+}
+input[type="number"]:focus,
+input[type="text"]:focus {
+    border: 2px solid black;
+    outline: none;
+}
+
+
 
 /* Định dạng cho phần tiêu đề chính */
 h1 {
@@ -179,7 +193,7 @@ input[type="number"],
 button[type="submit"] {
     padding: 12px;
     font-size: 16px;
-    border: 1.5px solid #ccc;
+    border: 2px solid #ffffff;
     border-radius: 10px;
     margin-bottom: 15px; /* Tăng khoảng cách giữa các trường */
     width: 100%; /* Chiều rộng 100% để đồng nhất với submit */
@@ -234,23 +248,23 @@ table {
 
 /* Đặt chiều rộng cố định cho các cột */
 th:nth-child(1), td:nth-child(1) {
-    width: 20%; /* Sinh Viên */
+    width: 10%; 
 }
 
 th:nth-child(2), td:nth-child(2) {
-    width: 15%; /* Mã Sinh Viên */
+    width: 20%;
 }
 
 th:nth-child(3), td:nth-child(3) {
-    width: 15%; /* Số Tiền */
+    width: 5%; 
 }
 
 th:nth-child(4), td:nth-child(4) {
-    width: 15%; /* Ngày Tạo */
+    width: 15%; 
 }
 
 th:nth-child(5), td:nth-child(5) {
-    width: 15%; /* Trạng Thái */
+    width: 15%;
 }
 
 

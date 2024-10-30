@@ -73,7 +73,6 @@ function addOrUpdateInvoice(event) {
         `;
 
         tableBody.appendChild(newRow);
-        alert("Đã thêm hóa đơn thành công!");
     }
 
     // Xóa dữ liệu nhập sau khi thêm hoặc cập nhật
