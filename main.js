@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Kiểm tra trạng thái đăng nhập, nếu chưa đăng nhập thì chuyển về trang index.html
     if (localStorage.getItem("loggedIn") !== "true" && !window.location.pathname.endsWith("index.html")) {
-        alert("Vui lòng đăng nhập!");
         window.location.href = "index.html";
     }
 });
