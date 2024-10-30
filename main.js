@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
             window.location.href = "ktx/main.html"; // Chuyển hướng đến trang chính
         } else {
             errorMessage.style.display = "block"; // Hiển thị thông báo lỗi khi đăng nhập thất bại
-            alert("Sai tên đăng nhập hoặc mật khẩu!");
         }
     });
 
