@@ -26,6 +26,5 @@ document.addEventListener("DOMContentLoaded", function () {
 // Hàm đăng xuất
 function logout() {
     localStorage.removeItem("loggedIn");
-    alert("Đã đăng xuất!");
     window.location.href = "index.html"; // Đường dẫn chính xác tới index.html
 }
